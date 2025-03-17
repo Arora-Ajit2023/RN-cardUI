@@ -13,7 +13,7 @@ const CartSummary = () => {
           padding: 6,
           borderRadius: 8,
         }}>
-        <TextInput placeholder="Enter promo code" style={{flex: 10}} />
+        <TextInput placeholder="Enter promo code" style={{flex: 8}} />
 
         <TouchableOpacity style={{flex: 1}}>
           <Text style={{color: 'red'}}>Apply</Text>
