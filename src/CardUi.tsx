@@ -16,7 +16,7 @@ const CardUi = () => {
   return (
     <SafeAreaView>
       <StatusBar barStyle="dark-content" />
-      <ScrollView>
+      <ScrollView contentContainerStyle={{paddingBottom: 100}}>
         <FlatList
           data={cartData}
           renderItem={({item}) => <Cart {...item} />}

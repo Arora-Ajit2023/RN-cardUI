@@ -19,7 +19,6 @@ const CartSummary = () => {
           <Text style={{color: 'red'}}>Apply</Text>
         </TouchableOpacity>
       </View>
-
       <View
         style={{
           flexDirection: 'row',
@@ -30,7 +29,6 @@ const CartSummary = () => {
         <Text style={{color: '#eee'}}>Subtotal</Text>
         <Text style={{fontWeight: 'bold'}}>$100</Text>
       </View>
-
       <View
         style={{
           flexDirection: 'row',
@@ -51,7 +49,6 @@ const CartSummary = () => {
           alignItems: 'center',
           justifyContent: 'space-between',
           paddingVertical: 20,
-          marginBottom: 110,
         }}>
         <Text style={{fontWeight: 'bold'}}>Total</Text>
         <Text style={{fontWeight: 'bold'}}>$50</Text>
