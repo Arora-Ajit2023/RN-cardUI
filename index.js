@@ -8,6 +8,7 @@ import CardUi from './src/CardUi';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import SVGComponent from './src/SVG/Svgdemo';
 import Svgpage from './src/SVG/Svgpage';
+import Products from './src/Refresh/ProductRefresh';
 
 const App = () => (
   <SafeAreaProvider>
@@ -17,4 +18,4 @@ const App = () => (
   </SafeAreaProvider>
 );
 
-AppRegistry.registerComponent(appName, () => Svgpage);
+AppRegistry.registerComponent(appName, () => Products);
